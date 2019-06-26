@@ -1,0 +1,40 @@
+Day 1
+This day belong to setup of Kotlin.
+
+I am using SDKMAN for installing Kotlin and Java on my machine.
+
+Vagrant and VirtualBox has been installed on my Window machine which I will use as a host to create a CentOS 7 virtual machine.
+
+Creation of virtual machine is beyond the scop of this page.
+
+Following commands I have used :
+
+sudo curl -s https://get.sdkman.io | bash
+
+This command needs zip and unzip on your machine. You can install them by using 
+sudo  yum install unzip
+sudo yum install zip
+
+Run your command again, after install zip and unzip.
+
+sudo curl -s https://get.sdkman.io | bash
+
+
+SDKMAN has been installed, but it not in the path. 
+You can logout from your ssh and then login again, so path is updated.
+
+Try 
+sdk 
+
+Now, its the time to install java and kotlin
+
+sudo sdk install java
+sudo sdk install kotlin
+
+Check if kotlin available.
+kotlinc -help
+
+
+
+
+
